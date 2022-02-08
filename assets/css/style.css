@@ -1,0 +1,187 @@
+
+
+@font-face {
+    font-family: "Calibri Regular";
+    src: url(../fonts/calibri-regular.ttf);
+}
+
+*, body {
+    margin: 0;
+    font-family: "Calibri Regular";
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/* CUSTOMISATION HEADER */
+
+.main-nav {
+    background-color: #112e3e;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+    color: white;
+}
+
+a:hover{
+    color: #ffc107;
+}
+
+.main-nav .main-menu .main-menu-element a:hover{
+    color: #ffc107;
+}
+
+.ar{
+    padding: 0 1rem; 
+}
+
+.main-menu{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.main-menu .main-menu-element {
+    list-style: none;
+    padding: 0 1.5rem;
+}
+
+.main-menu .main-menu-element:not(:last-child){
+    border-right: 1px solid white;
+}
+
+.main-menu .main-menu-element a:hover{
+    color: #ffc107;
+}
+
+/* CUSTOMISATION RENO */
+.reno1{
+    margin: 2rem auto 10rem auto;
+    padding: 1rem 5rem;
+}
+
+#reno{
+    margin: 5rem auto;
+}
+
+.reno2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reno2{
+    margin: 1rem auto;
+    padding: 1rem 5rem;
+}
+
+/* CUSTOMISATION SECTION 2 */
+
+.personnage {
+   position: relative;
+}
+
+
+#reno.container .img-container{
+    width: 100%;
+    height: 60%;
+}
+
+#reno img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.personnage h3{
+    font-weight: bolder;
+}
+.btn-rdv {
+    color: white;
+    position: absolute;
+    padding: 1rem 5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #112E3E;
+    border-radius: 5px 5px 5px 5px;  
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn-rdv:hover {
+    background-color: #112e3e52;
+    color: white;
+}
+
+/* CUSTOMISATION CONTACT */
+li{
+    list-style: none;
+    display: flex;
+    text-align: start;
+    justify-items: stretch;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+}
+
+.reno2 ul li img{
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    margin-right: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CUSTOMISATION FOOTER */
+
+.textedt{
+    border-left: 1px solid white;
+}
+
+@media only screen and (max-width: 959px){
+
+        .ar{
+            text-decoration: underline #ffc107;
+            text-underline-offset: 0.5rem;
+            transition: 0.25s ease;
+        }
+
+        li{
+            color: #ffc107;
+        }
+
+        .navbar-dark .navbar-nav .nav-link.active,
+        .navbar-dark .navbar-nav .nav-link,
+        .navbar-dark .navbar-nav .show>.nav-link {
+            color: #ffc107;
+        }
+
+        a:hover{
+            color: #ffc107;
+        }
+
+    }
